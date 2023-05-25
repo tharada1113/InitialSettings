@@ -29,7 +29,6 @@ ssh-keygen -t ed25519
 ~/.ssh/config
 ```
 Host *
-  UseKeychain yes
 
 Include */config
 ```
