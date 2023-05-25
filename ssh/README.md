@@ -53,7 +53,7 @@ Include */config
 ```
 ~/.ssh/github/config
 ```
-Host github 
+Host github github.com
   HostName github.com
   User git
   IdentityFile ~/.ssh/github/id_ed25519
