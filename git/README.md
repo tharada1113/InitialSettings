@@ -1,18 +1,20 @@
-### 確認コマンド
+# 確認コマンド
 ```
 git config --list
 ```
 
-### 基本設定
+# 基本設定
 ``` 
 git config --global user.name "<name>"
 git config --global user.email "<email>"
 ```
-### エディター
+
+# エディター
 ```
 git config --global core.editor vim
 ```
-### 設定ファイル
+
+# 設定ファイル
 ```
 ~/.gitconfig
 ```
