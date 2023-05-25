@@ -36,6 +36,7 @@ Include */config
 - 未調査（害はない)
     - UseKeychain
 
+階層構成
 ```
 ~/.ssh/
 ├── config ... すべてのサーバに共通した設定を書くのと、下位のconfigをIncludeする
@@ -58,3 +59,4 @@ Host github
   User git
   IdentityFile ~/.ssh/github/id_ed25519
 ```
+- `User git`は固定値
