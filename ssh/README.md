@@ -59,3 +59,9 @@ Host github github.com
   IdentityFile ~/.ssh/github/id_ed25519
 ```
 - `User git`は固定値
+
+# トラブルシューティング
+```
+ssh -vT git@github.com
+ssh -vT -i ~/.ssh/github/id_ed25519 git@github.com
+```
